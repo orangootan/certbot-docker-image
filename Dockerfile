@@ -1,5 +1,5 @@
 FROM ring0club/python:2.7.13-r2
-RUN apk add certbot=0.18.1-r0 \
+RUN apk add certbot=0.18.2-r0 \
     --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
     --repository http://dl-cdn.alpinelinux.org/alpine/edge/main \
     --no-cache
